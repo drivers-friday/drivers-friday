@@ -6,3 +6,7 @@
   border-radius: 20px;
   border: 1px solid var(--bg-color-secondary);
 }
+
+.input::placeholder {
+  color: var(--ft-color-dark-secondary);
+}
