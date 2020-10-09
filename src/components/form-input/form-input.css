@@ -1,8 +1,7 @@
-.btn {
+.input {
   border-radius: 20px;
-  font-size: 1.2rem;
-  color: white;
-  background: #016b6b;
-  border: none;
-  padding: 10px 20px;
+  text-align: center;
+  width: 261px;
+  height: 56px;
+  border: 1px solid var(--bg-color-secondary);
 }
