@@ -1,4 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap");
+
+:root {
+  --global-font-family: "Manrope", sans-serif;
+  --global-font-weight: 400;
+  /* Color Styles */
+  --bg-color-primary: #f5f7fa;
+  --bg-color-secondary: #fff;
+  --color-primary: #0070ba;
+  --color-primary-shade: #005ea6;
+  --color-primary-dark: #1546a0;
+  --ft-color-dark-primary: #243656;
+  --ft-color-dark-secondary: #929bab;
+  --ft-color-light-primary: #fff;
+  --ft-color-light-secondary: #ffffff80;
+  --color-balance-pos: #37d39b;
+  --color-balance-neg: #f47090;
+  --color-gradient: radial-gradient(#0070ba, #1546a0);
+}
 
 *,
 *::after,
@@ -11,8 +29,10 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--global-font-family);
+  font-weight: var(--global-font-weight);
   margin: 0;
+  background-color: var(--bg-color-primary);
 }
 
 input,
@@ -21,5 +41,6 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--global-font-family);
+  font-weight: var(--global-font-weight);
 }
