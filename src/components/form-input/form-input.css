@@ -1,8 +1,8 @@
 .input {
   text-align: center;
   font-size: 12px;
-  width: 261px;
   height: 56px;
+  min-width: 261px;
   border-radius: 20px;
   border: 1px solid var(--bg-color-secondary);
 }
