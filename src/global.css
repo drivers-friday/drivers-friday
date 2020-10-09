@@ -15,7 +15,11 @@
   --ft-color-light-secondary: #ffffff80;
   --color-balance-pos: #37d39b;
   --color-balance-neg: #f47090;
-  --color-gradient: radial-gradient(#0070ba, #1546a0);
+  --color-gradient: radial-gradient(
+    122.27% 198.92% at -22.27% -27.38%,
+    #0070ba 0%,
+    #1546a0 100%
+  );
 }
 
 *,
